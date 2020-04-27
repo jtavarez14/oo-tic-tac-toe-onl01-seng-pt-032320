@@ -39,6 +39,7 @@ class TicTacToe
    return turn
   end
   
+<<<<<<< HEAD
   def current_player
     num_turns = turn_count
     if num_turns % 2 == 0
@@ -49,6 +50,8 @@ class TicTacToe
   return player
   end
   
+=======
+>>>>>>> 4fb4e1641290d1822bf4da8c20e49f0eae840977
   def turn
   puts "Please choose a number 1-9:"
   user_input = gets.chomp
@@ -61,6 +64,7 @@ class TicTacToe
     turn
   end
 end
+<<<<<<< HEAD
 
 def won?
   WIN_COMBINATIONS.each {|win_combo|
@@ -126,5 +130,7 @@ def play
     puts "Cat's Game!"
   end
 end
+=======
+>>>>>>> 4fb4e1641290d1822bf4da8c20e49f0eae840977
 
 end 
